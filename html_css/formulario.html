@@ -1,25 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         <title>Formularios</title>
     </head>
     <body>
         <h3>Mi primer formulario</h3>
         <form>
-            <label>Nombre:</label>
-            <input type="text" name="nombre" id="id_nombre">
+            <div>
+                <label>Nombre:</label>
+                <input type="text" name="nombre" id="id_nombre" required minlength="5" maxlength="20">
+            </div>
             <br>
             <label>Edad:</label>
-            <input type="number" name="edad">
+            <input type="number" name="edad" min="14">
             <br>
             <label>Fecha:</label>
-            <input type="date">
+            <input type="date" required>
             <br>
             <label for="color">Color</label>
             <input type="color" name="color" id="color">
             <br>
             <label>Clave</label>
-            <input type="password">
+            <input type="password" required>
             <hr>
             <select>
                 <option value="">Seleccione</option>
@@ -35,7 +37,12 @@
             <input type="radio" name="grupo1" value="2"> Radio 2
             <input type="radio" name="grupo1" value="3" checked> Radio 3
             <hr>
-            <button type="submit">Enviar</button>
+            <textarea rows="20" cols="100" maxlength="200"></textarea>
+            <br>
+            <button type="submit" id="boton">Enviar</button>
         </form>
+        <script>
+            console.log(document.getElementById('boton'))
+        </script>
     </body>
 </html>
