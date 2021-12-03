@@ -1,0 +1,56 @@
+#div1 {
+    height: 200px;
+}
+
+
+div {
+    height: 100px;
+    background-color: rgba(0,128,0, .5);
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 20px 10px 5px black;
+}
+
+@media only screen and (max-width: 480px) {
+    div {
+        background-color: red;
+        width: 50px;
+    }
+
+    #div1 {
+        background-color: blue;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    div {
+        background-color: yellow;
+        width: 200px;
+    }
+}
+
+p:first-child {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p:last-child {
+    color: red;
+}
+
+p:nth-child(3) {
+    color: #00009F;
+}
+
+p:nth-of-type(4) {
+    color: #009F00;
+}
+
+.wrapper {
+    opacity: 1;
+}
+
+.wrapper div {
+    opacity: 1;
+}

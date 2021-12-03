@@ -1,0 +1,41 @@
+body {
+    /* height: 2000px; */
+    background-image: url('https://static.wixstatic.com/media/221bc3_d297fd82afde4c899379d7482acde19b~mv2.png/v1/fill/w_308,h_120,al_c,q_85/LOGO-SENCE-SIN-FONDO.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    /* background-color: black; */
+}
+div {
+    height: 100px;
+    background-color: blue;
+    margin-top: 20px;
+    border: 2px solid red;
+}
+
+#div2 {
+    height: 200px;
+    background-color: red;
+    display: inline-block;
+    width: 50%;
+    background-image: url('https://static.wixstatic.com/media/221bc3_d297fd82afde4c899379d7482acde19b~mv2.png/v1/fill/w_308,h_120,al_c,q_85/LOGO-SENCE-SIN-FONDO.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.fondo-verde {
+    background-color: green;
+    display: inline-block;
+    width: 40%;
+}
+
+.div_super {
+    /* width: 300px; */
+    height: 100%;
+    background-color: transparent;
+    border: 4px dotted black;
+    padding: 50px;
+    border-radius: 50px;
+}
