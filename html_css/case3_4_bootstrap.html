@@ -20,11 +20,11 @@
                 <div class="col-12 col-md-3 col-lg-3"></div>
                 <div class="col-12 col-md-3 col-lg-3"></div>
             </div> -->
-            <form>
+            <form id="formulario">
                 <div class="row">
                     <div class="form-group col-12 col-md-6">
                         <label>Nombre</label>
-                        <input type="text" class="form-control" required>
+                        <input type="text" id="nombre" class="form-control" required>
                     </div>
                     <div class="form-group col-12 col-md-6">
                         <label>Email</label>
@@ -68,5 +68,81 @@
                 </table>
             </div>
         </div>
+        <p>Hola a todos!!</p>
+
+        <button onclick="cambiarColor()">Cambiar Color</button>
+        <button onclick="addTextToDiv()">Agregar Texto a DIV</button>
+        <button onclick="romperHtml()">Romper mi página</button>
+        <button id ="navegar_google">Ir a google</button>
+
+        <img id="imagen_cd" alt="imagen coding dojo" onclick="cambiarImagen()" src="https://media-exp1.licdn.com/dms/image/C4D0BAQEBr1UDBaShDg/company-logo_200_200/0/1628864237201?e=2159024400&v=beta&t=UTCRXqbiCacR4KBGbOc8tb6VNnr-6LO2JKgvTFPt_6A">
+
+
+        <div id="contenedor">
+
+        </div>
+
+        <script>
+            console.log(document.body);
+            document.body.style.color = 'red';
+
+            console.log(document.getElementById('formulario'));
+
+            document.getElementById('formulario').addEventListener('submit', (e) => {
+                console.log(e);
+                e.preventDefault();
+                alert(document.getElementById('nombre').value);
+                document.getElementById('nombre').value = 'Otro Nombre';
+
+                
+            })
+
+            document.getElementById('navegar_google').addEventListener('click', (e) => {
+                window.open('https://www.google.cl', '_blank');
+            })
+
+            const divs = document.getElementsByTagName('div');
+            console.log(divs);
+
+            for(let d of divs) {
+                console.log(d.classList);
+            }
+
+            function formSubmit(e) {
+                e.preventDefault();
+                console.log(e);
+                alert('Esto es un submit');
+            }
+
+            function cambiarColor() {
+                if(document.body.style.backgroundColor == 'black') {
+                    document.body.style.backgroundColor = 'white';
+                    document.body.style.color = 'black';
+                } else {
+                    document.body.style.backgroundColor = 'black';
+                    document.body.style.color = 'white';
+                }
+            }
+
+            function addTextToDiv() {
+                document.getElementById('contenedor').innerHTML += '<h2>Hola a todos</h2>'
+            }
+
+            function romperHtml() {
+                document.body.innerHTML='<h1>Esto esta roto</h1>'
+            }
+
+            // https://media-exp1.licdn.com/dms/image/C4D0BAQEBr1UDBaShDg/company-logo_200_200/0/1628864237201?e=2159024400&v=beta&t=UTCRXqbiCacR4KBGbOc8tb6VNnr-6LO2JKgvTFPt_6A
+
+            function cambiarImagen() {
+                const img = document.getElementById('imagen_cd');
+                if(img.src.indexOf('C4D0BAQEBr1UDBaShDg') >= 0) {
+                    img.src = "https://media-exp1.licdn.com/dms/image/C560BAQFjeLtd8ZXKHQ/company-logo_200_200/0/1593620121292?e=2159024400&v=beta&t=QtTa7s7wR4f6SPOa4MiaPRlJriPS5J-zfGH220WpsAM";
+                } else {
+                    img.src = "https://media-exp1.licdn.com/dms/image/C4D0BAQEBr1UDBaShDg/company-logo_200_200/0/1628864237201?e=2159024400&v=beta&t=UTCRXqbiCacR4KBGbOc8tb6VNnr-6LO2JKgvTFPt_6A";
+                }
+            }
+            
+        </script>
     </body>
 </html>
