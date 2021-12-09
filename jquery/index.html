@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejemplo con JQuery</title>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+    </head>
+    <body style="background-color: white;">
+        <button onclick="cambiarColor()">Cambiar Color</button>
+        <button onclick="addTextToDiv()">Agregar Texto a DIV</button>
+        <button onclick="romperHtml()">Romper mi página</button>
+        <button id ="toggle">Ocultar/Mostrar</button>
+
+        <button id ="animar">Animar</button>
+
+
+        <img id="imagen_cd" alt="imagen coding dojo" onclick="cambiarImagen()" src="https://media-exp1.licdn.com/dms/image/C4D0BAQEBr1UDBaShDg/company-logo_200_200/0/1628864237201?e=2159024400&v=beta&t=UTCRXqbiCacR4KBGbOc8tb6VNnr-6LO2JKgvTFPt_6A">
+        
+        <div id="contenido" style="width: 200px; display: inline-block; background-color: red;  height:100px; position:absolute;"></div>
+
+        <script>
+            $().ready(() => {
+                $('#contenido').html('<h1> Página cargada </h1>')
+                $('#toggle').on('click', () => {
+                    $('#imagen_cd').toggle();
+                });
+
+                $('#animar').on('click', () => {
+                    console.log('Pasó por acá', $('#contenido'));
+                    $('#contenido').animate({
+                        left: '200px',
+                        opacity: '0.5',
+                        height: '200px',
+                        width: '300px'
+                    }, 5000);
+                });
+            });
+
+            function cambiarColor() {
+                if($('body').css('background-color').indexOf('255') < 0) {
+                    $('body').css('background-color', 'white');
+                    $('body').css('color', 'black');
+                } else {
+                    $('body').css('background-color', 'black');
+                    $('body').css('color', 'white');
+                }
+            }
+
+            function addTextToDiv() {
+                $('#contenido').html( $('#contenido').html() + '<h2>Hola a todos</h2>');
+            }
+
+            function romperHtml() {
+                $('body').html('<h1>Esto esta roto</h1>');
+            }
+
+            function cambiarImagen() {
+                const img = $('#imagen_cd');
+                console.log(img.attr('src'));
+                if(img.attr('src').indexOf('C4D0BAQEBr1UDBaShDg') >= 0) {
+                    img.attr('src', "https://media-exp1.licdn.com/dms/image/C560BAQFjeLtd8ZXKHQ/company-logo_200_200/0/1593620121292?e=2159024400&v=beta&t=QtTa7s7wR4f6SPOa4MiaPRlJriPS5J-zfGH220WpsAM");
+                } else {
+                    img.attr('src', "https://media-exp1.licdn.com/dms/image/C4D0BAQEBr1UDBaShDg/company-logo_200_200/0/1628864237201?e=2159024400&v=beta&t=UTCRXqbiCacR4KBGbOc8tb6VNnr-6LO2JKgvTFPt_6A");
+                }
+            }
+        </script>
+    </body>
+</html>
