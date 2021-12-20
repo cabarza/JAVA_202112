@@ -15,6 +15,16 @@ public class ZooTest {
 		manila.climb();
 		
 		manila.displayEnergy();
+		
+		
+		IMamifero m1 = new Gorila();
+		System.out.println(m1.comer("Plátano"));
+		
+		IMamifero m2 = new Canguro();
+		System.out.println(m2.comer("hojas"));
+		
+		System.out.println(m1);
+		System.out.println(m2);
 	}
 
 }

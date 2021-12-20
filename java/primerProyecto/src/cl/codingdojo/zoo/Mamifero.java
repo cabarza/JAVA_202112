@@ -1,6 +1,6 @@
 package cl.codingdojo.zoo;
 
-public class Mamifero {
+public abstract class Mamifero {
 	
 	private int energia;
 	
@@ -13,6 +13,9 @@ public class Mamifero {
 		return this.energia;
 	}
 
+	public abstract void caminar();
+	
+	
 	public int getEnergia() {
 		return energia;
 	}
