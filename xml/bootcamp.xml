@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8">
+<bootcamp>
+    <java>
+        <contenidos>
+            <contenido titulo="Java on the Web">
+                <subContenidos>
+                    <subContenido>
+                        <nombre>Información General</nombre>
+                        <duracion>00:30</duracion>
+                    <subContenido>
+                    <subContenido>
+                        <nombre>XML</nombre>
+                        <duracion>01:00</duracion>
+                    <subContenido>
+                    <subContenido>
+                        <nombre>Leer y Crear XML</nombre>
+                        <duracion>01:20</duracion>
+                        <tarea>true</tarea>
+                    <subContenido>
+                </subContenidos>
+            </contenido>
+        </contenidos>
+    </java>
+</bootcamp>
