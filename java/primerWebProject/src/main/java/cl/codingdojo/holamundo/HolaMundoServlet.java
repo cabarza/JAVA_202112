@@ -12,7 +12,7 @@ import java.io.PrintWriter;
 /**
  * Servlet implementation class HolaMundoServlet
  */
-@WebServlet(urlPatterns = "/hola2", description = "Este es mi primer Servlet", displayName = "HolaMundoServlet")
+@WebServlet("/hola2")
 public class HolaMundoServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -29,6 +29,7 @@ public class HolaMundoServlet extends HttpServlet {
 	 */
 	public void init(ServletConfig config) throws ServletException {
 		// TODO Auto-generated method stub
+		System.out.println("PASO POR EL INIT");
 	}
 
 	/**
@@ -36,10 +37,13 @@ public class HolaMundoServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		String nombre = request.getParameter("nombre");
+		String ciudad = request.getParameter("ciudad");
+		
 		response.setContentType("text/html");
         // writes the response
         PrintWriter out = response.getWriter();
-        out.write("<h1>Hola Mundo!!!</h1>");
+        out.write("<h1>Hola " + nombre + "!!!</h1><br><h2>Soy de " + ciudad+"</h2>");
 	}
 
 }
