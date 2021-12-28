@@ -1,0 +1,688 @@
+2021-12-27 09:39:25.174  INFO 1914384 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1914384 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 09:39:25.176  INFO 1914384 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 09:39:25.886  INFO 1914384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 09:39:25.894  INFO 1914384 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 09:39:25.895  INFO 1914384 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 09:39:25.944  INFO 1914384 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 09:39:25.944  INFO 1914384 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 723 ms
+2021-12-27 09:39:26.252  INFO 1914384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 09:39:26.262  INFO 1914384 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.488 seconds (JVM running for 1.99)
+2021-12-27 09:40:39.931  INFO 1914384 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 09:40:39.932  INFO 1914384 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 09:40:39.933  INFO 1914384 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 09:41:13.595  INFO 1914384 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 09:43:09.210  INFO 1914607 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1914607 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 09:43:09.230  INFO 1914607 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 09:47:01.832  INFO 1914869 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1914869 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 09:47:01.834  INFO 1914869 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 09:47:02.530  INFO 1914869 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 09:47:02.539  INFO 1914869 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 09:47:02.539  INFO 1914869 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 09:47:02.590  INFO 1914869 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 09:47:02.590  INFO 1914869 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 713 ms
+2021-12-27 09:47:02.881  INFO 1914869 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 09:47:02.892  INFO 1914869 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.408 seconds (JVM running for 1.925)
+2021-12-27 09:47:14.330  INFO 1914869 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 09:47:14.330  INFO 1914869 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 09:47:14.331  INFO 1914869 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-12-27 09:51:48.598  INFO 1914869 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 10:11:53.283  INFO 1919944 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1919944 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 10:11:53.387  INFO 1919944 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 10:11:54.246  INFO 1919944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 10:11:54.260  INFO 1919944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 10:11:54.260  INFO 1919944 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 10:11:54.321  INFO 1919944 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 10:11:54.321  INFO 1919944 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 887 ms
+2021-12-27 10:11:54.676  INFO 1919944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 10:11:54.692  INFO 1919944 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.851 seconds (JVM running for 2.355)
+2021-12-27 10:12:02.581  INFO 1919944 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 10:12:02.582  INFO 1919944 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 10:12:02.583  INFO 1919944 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 10:12:24.960  INFO 1919944 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 10:13:42.919  INFO 1921202 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1921202 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 10:13:42.924  INFO 1921202 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 10:13:43.746  INFO 1921202 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 10:13:43.753  INFO 1921202 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 10:13:43.754  INFO 1921202 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 10:13:43.809  INFO 1921202 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 10:13:43.810  INFO 1921202 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 834 ms
+2021-12-27 10:13:44.087  INFO 1921202 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 10:13:44.096  INFO 1921202 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.598 seconds (JVM running for 2.098)
+2021-12-27 10:13:49.756  INFO 1921202 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 10:13:49.757  INFO 1921202 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 10:13:49.758  INFO 1921202 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 10:14:16.792  INFO 1921202 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 10:14:24.012  INFO 1921286 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1921286 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 10:14:24.015  INFO 1921286 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 10:14:24.720  INFO 1921286 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 10:14:24.729  INFO 1921286 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 10:14:24.730  INFO 1921286 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 10:14:24.781  INFO 1921286 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 10:14:24.781  INFO 1921286 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 729 ms
+2021-12-27 10:14:25.094  INFO 1921286 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 10:14:25.104  INFO 1921286 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.446 seconds (JVM running for 1.91)
+2021-12-27 10:14:51.857  INFO 1921286 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 10:14:51.858  INFO 1921286 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 10:14:51.859  INFO 1921286 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 10:18:57.108  INFO 1921286 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 10:18:58.799  INFO 1921628 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1921628 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 10:18:58.801  INFO 1921628 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 10:18:59.577  INFO 1921628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 10:18:59.590  INFO 1921628 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 10:18:59.591  INFO 1921628 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 10:18:59.646  INFO 1921628 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 10:18:59.647  INFO 1921628 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 803 ms
+2021-12-27 10:18:59.951  INFO 1921628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 10:18:59.961  INFO 1921628 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.537 seconds (JVM running for 2.055)
+2021-12-27 10:19:05.722  INFO 1921628 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 10:19:05.725  INFO 1921628 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 10:19:05.726  INFO 1921628 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 10:21:02.483  INFO 1921628 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 10:21:04.263  INFO 1921770 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1921770 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 10:21:04.265  INFO 1921770 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 10:21:05.004  INFO 1921770 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 10:21:05.015  INFO 1921770 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 10:21:05.016  INFO 1921770 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 10:21:05.062  INFO 1921770 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 10:21:05.062  INFO 1921770 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 759 ms
+2021-12-27 10:21:05.335  INFO 1921770 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 10:21:05.345  INFO 1921770 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.453 seconds (JVM running for 1.943)
+2021-12-27 10:21:09.215  INFO 1921770 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 10:21:09.216  INFO 1921770 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 10:21:09.217  INFO 1921770 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 10:23:12.887  INFO 1921770 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 10:23:14.891  INFO 1921905 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1921905 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 10:23:14.893  INFO 1921905 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 10:23:15.672  INFO 1921905 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 10:23:15.682  INFO 1921905 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 10:23:15.682  INFO 1921905 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 10:23:15.730  INFO 1921905 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 10:23:15.730  INFO 1921905 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 790 ms
+2021-12-27 10:23:15.997  INFO 1921905 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 10:23:16.006  INFO 1921905 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.471 seconds (JVM running for 1.981)
+2021-12-27 10:23:21.692  INFO 1921905 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 10:23:21.693  INFO 1921905 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 10:23:21.695  INFO 1921905 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-12-27 10:23:24.543  WARN 1921905 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-27 10:24:16.338  INFO 1921905 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 10:24:17.751  INFO 1922054 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1922054 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 10:24:17.754  INFO 1922054 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 10:24:18.445  INFO 1922054 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 10:24:18.454  INFO 1922054 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 10:24:18.454  INFO 1922054 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 10:24:18.496  INFO 1922054 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 10:24:18.497  INFO 1922054 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 706 ms
+2021-12-27 10:24:18.765  INFO 1922054 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 10:24:18.775  INFO 1922054 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.378 seconds (JVM running for 1.894)
+2021-12-27 10:24:34.452  INFO 1922054 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 10:24:34.452  INFO 1922054 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 10:24:34.454  INFO 1922054 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 10:29:38.581  INFO 1922054 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 10:29:40.416  INFO 1922408 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1922408 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 10:29:40.418  INFO 1922408 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 10:29:41.182  INFO 1922408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 10:29:41.198  INFO 1922408 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 10:29:41.199  INFO 1922408 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 10:29:41.253  INFO 1922408 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 10:29:41.253  INFO 1922408 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 798 ms
+2021-12-27 10:29:41.562  INFO 1922408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 10:29:41.570  INFO 1922408 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.513 seconds (JVM running for 2.06)
+2021-12-27 10:29:44.713  INFO 1922408 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 10:29:44.714  INFO 1922408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 10:29:44.715  INFO 1922408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 10:31:48.668  INFO 1922408 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 10:31:50.047  INFO 1922537 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1922537 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 10:31:50.049  INFO 1922537 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 10:31:50.785  INFO 1922537 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 10:31:50.793  INFO 1922537 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 10:31:50.794  INFO 1922537 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 10:31:50.844  INFO 1922537 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 10:31:50.845  INFO 1922537 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 763 ms
+2021-12-27 10:31:51.137  INFO 1922537 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 10:31:51.147  INFO 1922537 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.46 seconds (JVM running for 1.953)
+2021-12-27 10:31:58.588  INFO 1922537 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 10:31:58.590  INFO 1922537 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 10:31:58.592  INFO 1922537 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 10:31:58.610  WARN 1922537 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-27 10:38:39.555  INFO 1922537 --- [RMI TCP Connection(17)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 10:38:40.960  INFO 1922730 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1922730 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 10:38:40.962  INFO 1922730 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 10:38:41.645  INFO 1922730 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 10:38:41.655  INFO 1922730 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 10:38:41.656  INFO 1922730 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 10:38:41.703  INFO 1922730 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 10:38:41.704  INFO 1922730 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 704 ms
+2021-12-27 10:38:41.985  INFO 1922730 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 10:38:41.995  INFO 1922730 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.408 seconds (JVM running for 1.894)
+2021-12-27 10:38:46.950  INFO 1922730 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 10:38:46.951  INFO 1922730 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 10:38:46.952  INFO 1922730 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-12-27 10:38:46.964  WARN 1922730 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-27 10:38:50.452  WARN 1922730 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'data' for method parameter type String is not present]
+2021-12-27 10:39:57.172  INFO 1922730 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 10:39:58.872  INFO 1922922 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1922922 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 10:39:58.873  INFO 1922922 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 10:39:59.530  INFO 1922922 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 10:39:59.538  INFO 1922922 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 10:39:59.538  INFO 1922922 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 10:39:59.581  INFO 1922922 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 10:39:59.581  INFO 1922922 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 672 ms
+2021-12-27 10:39:59.848  INFO 1922922 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 10:39:59.858  INFO 1922922 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.344 seconds (JVM running for 1.853)
+2021-12-27 10:40:25.271  INFO 1922922 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 10:40:25.272  INFO 1922922 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 10:40:25.273  INFO 1922922 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 11:04:26.778  INFO 1922922 --- [RMI TCP Connection(35)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 11:04:28.208  INFO 1923698 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1923698 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 11:04:28.211  INFO 1923698 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 11:04:28.944  INFO 1923698 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 11:04:28.951  INFO 1923698 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 11:04:28.951  INFO 1923698 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 11:04:29.146  INFO 1923698 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 11:04:29.155  INFO 1923698 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 11:04:29.155  INFO 1923698 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 895 ms
+2021-12-27 11:04:29.437  INFO 1923698 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 11:04:29.447  INFO 1923698 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.654 seconds (JVM running for 2.163)
+2021-12-27 11:04:34.995  INFO 1923698 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 11:10:54.281  INFO 1924063 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1924063 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 11:10:54.284  INFO 1924063 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 11:10:55.064  INFO 1924063 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 11:10:55.076  INFO 1924063 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 11:10:55.077  INFO 1924063 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 11:10:55.254  INFO 1924063 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 11:10:55.269  INFO 1924063 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 11:10:55.269  INFO 1924063 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 939 ms
+2021-12-27 11:10:55.536  INFO 1924063 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 11:10:55.544  INFO 1924063 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.631 seconds (JVM running for 2.218)
+2021-12-27 11:11:06.138  INFO 1924063 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 11:11:06.139  INFO 1924063 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 11:11:06.140  INFO 1924063 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 11:14:24.173  INFO 1924063 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 11:14:38.727  INFO 1924250 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1924250 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 11:14:38.729  INFO 1924250 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 11:14:39.424  INFO 1924250 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 11:14:39.431  INFO 1924250 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 11:14:39.431  INFO 1924250 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 11:14:39.603  INFO 1924250 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 11:14:39.612  INFO 1924250 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 11:14:39.612  INFO 1924250 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 849 ms
+2021-12-27 11:14:39.881  INFO 1924250 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 11:14:39.889  INFO 1924250 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.536 seconds (JVM running for 2.041)
+2021-12-27 11:14:47.375  INFO 1924250 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 11:14:47.375  INFO 1924250 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 11:14:47.376  INFO 1924250 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 11:18:32.789  INFO 1924250 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 11:18:36.931  INFO 1924469 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1924469 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 11:18:36.932  INFO 1924469 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 11:18:37.624  INFO 1924469 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 11:18:37.631  INFO 1924469 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 11:18:37.631  INFO 1924469 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 11:18:37.815  INFO 1924469 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 11:18:37.827  INFO 1924469 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 11:18:37.827  INFO 1924469 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 856 ms
+2021-12-27 11:18:38.037  WARN 1924469 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'indexController' method 
+cl.codingdojo.asce.controller.IndexController#index()
+to { [/]}: There is already 'helloController' bean method
+cl.codingdojo.asce.controller.HelloController#hello() mapped.
+2021-12-27 11:18:38.039  INFO 1924469 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-12-27 11:18:38.050  INFO 1924469 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-27 11:18:38.064 ERROR 1924469 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'indexController' method 
+cl.codingdojo.asce.controller.IndexController#index()
+to { [/]}: There is already 'helloController' bean method
+cl.codingdojo.asce.controller.HelloController#hello() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.8.jar:2.5.8]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) ~[spring-boot-2.5.8.jar:2.5.8]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-2.5.8.jar:2.5.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.8.jar:2.5.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-2.5.8.jar:2.5.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.8.jar:2.5.8]
+	at cl.codingdojo.asce.PrimerSpringBootApplication.main(PrimerSpringBootApplication.java:12) ~[classes/:na]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'indexController' method 
+cl.codingdojo.asce.controller.IndexController#index()
+to { [/]}: There is already 'helloController' bean method
+cl.codingdojo.asce.controller.HelloController#hello() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:420) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:205) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.14.jar:5.3.14]
+	... 16 common frames omitted
+
+2021-12-27 11:19:27.711  INFO 1924536 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1924536 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 11:19:27.713  INFO 1924536 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 11:19:28.458  INFO 1924536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 11:19:28.466  INFO 1924536 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 11:19:28.467  INFO 1924536 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 11:19:28.695  INFO 1924536 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 11:19:28.708  INFO 1924536 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 11:19:28.709  INFO 1924536 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 960 ms
+2021-12-27 11:19:28.977  INFO 1924536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 11:19:28.987  INFO 1924536 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.648 seconds (JVM running for 2.093)
+2021-12-27 11:19:38.778  INFO 1924536 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 11:19:38.779  INFO 1924536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 11:19:38.780  INFO 1924536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 11:25:47.508  INFO 1924536 --- [RMI TCP Connection(17)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 11:25:50.922  INFO 1924805 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1924805 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 11:25:50.924  INFO 1924805 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 11:25:51.635  INFO 1924805 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 11:25:51.643  INFO 1924805 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 11:25:51.643  INFO 1924805 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 11:25:51.827  INFO 1924805 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 11:25:51.837  INFO 1924805 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 11:25:51.838  INFO 1924805 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 868 ms
+2021-12-27 11:25:52.153  INFO 1924805 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 11:25:52.162  INFO 1924805 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.659 seconds (JVM running for 2.146)
+2021-12-27 11:25:58.396  INFO 1924805 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 11:25:58.397  INFO 1924805 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 11:25:58.398  INFO 1924805 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 11:26:31.646  INFO 1924805 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 11:26:34.941  INFO 1924905 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1924905 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 11:26:34.944  INFO 1924905 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 11:26:35.716  INFO 1924905 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 11:26:35.724  INFO 1924905 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 11:26:35.724  INFO 1924905 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 11:26:35.905  INFO 1924905 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 11:26:35.915  INFO 1924905 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 11:26:35.915  INFO 1924905 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 931 ms
+2021-12-27 11:26:36.218  INFO 1924905 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 11:26:36.228  INFO 1924905 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.655 seconds (JVM running for 2.157)
+2021-12-27 11:26:39.832  INFO 1924905 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 11:26:39.833  INFO 1924905 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 11:26:39.834  INFO 1924905 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 11:52:18.375  INFO 1924905 --- [RMI TCP Connection(36)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 11:52:21.168  INFO 1925815 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1925815 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 11:52:21.170  INFO 1925815 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 11:52:21.970  INFO 1925815 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 11:52:21.980  INFO 1925815 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 11:52:21.980  INFO 1925815 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 11:52:22.194  INFO 1925815 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 11:52:22.203  INFO 1925815 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 11:52:22.204  INFO 1925815 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 993 ms
+2021-12-27 11:52:22.527  INFO 1925815 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 11:52:22.535  INFO 1925815 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.733 seconds (JVM running for 2.238)
+2021-12-27 11:52:28.426  INFO 1925815 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 11:52:28.427  INFO 1925815 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 11:52:28.428  INFO 1925815 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 11:55:36.175  INFO 1925815 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 11:55:38.731  INFO 1926030 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1926030 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 11:55:38.733  INFO 1926030 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 11:55:39.443  INFO 1926030 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 11:55:39.450  INFO 1926030 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 11:55:39.451  INFO 1926030 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 11:55:39.642  INFO 1926030 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 11:55:39.651  INFO 1926030 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 11:55:39.651  INFO 1926030 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 880 ms
+2021-12-27 11:55:39.833  INFO 1926030 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 11:55:39.917  INFO 1926030 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 11:55:39.926  INFO 1926030 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.553 seconds (JVM running for 1.998)
+2021-12-27 11:55:49.132  INFO 1926030 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 11:55:49.133  INFO 1926030 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 11:55:49.135  INFO 1926030 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-12-27 11:56:22.989  INFO 1926030 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 11:56:25.855  INFO 1926119 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1926119 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 11:56:25.857  INFO 1926119 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 11:56:26.616  INFO 1926119 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 11:56:26.625  INFO 1926119 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 11:56:26.626  INFO 1926119 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 11:56:26.812  INFO 1926119 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 11:56:26.820  INFO 1926119 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 11:56:26.820  INFO 1926119 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 926 ms
+2021-12-27 11:56:27.004  INFO 1926119 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 11:56:27.107  INFO 1926119 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 11:56:27.117  INFO 1926119 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.673 seconds (JVM running for 2.157)
+2021-12-27 11:57:12.000  INFO 1926119 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 11:57:12.001  INFO 1926119 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 11:57:12.002  INFO 1926119 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 11:57:40.886  WARN 1926119 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-27 12:24:05.219  INFO 1926119 --- [RMI TCP Connection(38)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 12:24:08.781  INFO 1927534 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1927534 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 12:24:08.783  INFO 1927534 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 12:24:09.653  INFO 1927534 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 12:24:09.671  INFO 1927534 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 12:24:09.671  INFO 1927534 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 12:24:09.916  INFO 1927534 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 12:24:09.930  INFO 1927534 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 12:24:09.931  INFO 1927534 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1111 ms
+2021-12-27 12:24:10.177  INFO 1927534 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 12:24:10.265  INFO 1927534 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 12:24:10.273  INFO 1927534 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.868 seconds (JVM running for 2.407)
+2021-12-27 12:24:22.759  INFO 1927534 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 12:24:22.760  INFO 1927534 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 12:24:22.761  INFO 1927534 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 12:25:36.485  INFO 1927534 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 12:25:38.012  INFO 1927716 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1927716 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 12:25:38.014  INFO 1927716 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 12:25:38.802  INFO 1927716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 12:25:38.818  INFO 1927716 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 12:25:38.819  INFO 1927716 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 12:25:39.005  INFO 1927716 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 12:25:39.015  INFO 1927716 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 12:25:39.015  INFO 1927716 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 954 ms
+2021-12-27 12:25:39.243  INFO 1927716 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 12:25:39.333  INFO 1927716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 12:25:39.342  INFO 1927716 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.702 seconds (JVM running for 2.204)
+2021-12-27 12:25:42.061  INFO 1927716 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 12:25:42.062  INFO 1927716 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 12:25:42.063  INFO 1927716 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 12:31:35.606  INFO 1927716 --- [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 12:31:37.060  INFO 1928241 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1928241 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 12:31:37.062  INFO 1928241 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 12:31:37.741  INFO 1928241 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 12:31:37.749  INFO 1928241 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 12:31:37.750  INFO 1928241 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 12:31:37.930  INFO 1928241 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 12:31:37.941  INFO 1928241 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 12:31:37.941  INFO 1928241 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 845 ms
+2021-12-27 12:31:38.145  INFO 1928241 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 12:31:38.245  INFO 1928241 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 12:31:38.254  INFO 1928241 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.559 seconds (JVM running for 2.032)
+2021-12-27 12:31:44.524  INFO 1928241 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 12:31:44.526  INFO 1928241 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 12:31:44.528  INFO 1928241 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-12-27 12:32:39.270  INFO 1928241 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 12:32:40.908  INFO 1928346 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1928346 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 12:32:40.911  INFO 1928346 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 12:32:41.686  INFO 1928346 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 12:32:41.694  INFO 1928346 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 12:32:41.694  INFO 1928346 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 12:32:41.891  INFO 1928346 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 12:32:41.903  INFO 1928346 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 12:32:41.903  INFO 1928346 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 955 ms
+2021-12-27 12:32:42.158  INFO 1928346 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 12:32:42.261  INFO 1928346 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 12:32:42.275  INFO 1928346 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.751 seconds (JVM running for 2.191)
+2021-12-27 12:32:47.183  INFO 1928346 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 12:32:47.185  INFO 1928346 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 12:32:47.185  INFO 1928346 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-12-27 12:41:31.877  INFO 1928346 --- [RMI TCP Connection(19)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 12:41:33.402  INFO 1928891 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1928891 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 12:41:33.404  INFO 1928891 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 12:41:34.179  INFO 1928891 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 12:41:34.190  INFO 1928891 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 12:41:34.190  INFO 1928891 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 12:41:34.375  INFO 1928891 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 12:41:34.384  INFO 1928891 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 12:41:34.384  INFO 1928891 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 943 ms
+2021-12-27 12:41:34.574  INFO 1928891 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 12:41:34.669  INFO 1928891 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 12:41:34.677  INFO 1928891 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.706 seconds (JVM running for 2.274)
+2021-12-27 12:41:44.188  INFO 1928891 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 12:41:44.189  INFO 1928891 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 12:41:44.189  INFO 1928891 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-12-27 12:42:45.677  INFO 1928891 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 12:42:47.184  INFO 1929012 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1929012 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 12:42:47.186  INFO 1929012 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 12:42:47.966  INFO 1929012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 12:42:47.976  INFO 1929012 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 12:42:47.977  INFO 1929012 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 12:42:48.173  INFO 1929012 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 12:42:48.183  INFO 1929012 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 12:42:48.183  INFO 1929012 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 960 ms
+2021-12-27 12:42:48.390  INFO 1929012 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 12:42:48.487  INFO 1929012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 12:42:48.496  INFO 1929012 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.649 seconds (JVM running for 2.223)
+2021-12-27 12:42:53.780  INFO 1929012 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 12:42:53.781  INFO 1929012 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 12:42:53.782  INFO 1929012 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 13:00:08.908  INFO 1929012 --- [RMI TCP Connection(28)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 13:00:10.291  INFO 1929664 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1929664 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 13:00:10.293  INFO 1929664 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 13:00:10.975  INFO 1929664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 13:00:10.984  INFO 1929664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 13:00:10.984  INFO 1929664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 13:00:11.185  INFO 1929664 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 13:00:11.194  INFO 1929664 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 13:00:11.194  INFO 1929664 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 868 ms
+2021-12-27 13:00:11.400  INFO 1929664 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 13:00:11.494  INFO 1929664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 13:00:11.503  INFO 1929664 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.556 seconds (JVM running for 2.031)
+2021-12-27 13:00:18.490  INFO 1929664 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 13:00:18.490  INFO 1929664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 13:00:18.491  INFO 1929664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 13:00:29.539  INFO 1929664 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 13:00:30.988  INFO 1929740 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1929740 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 13:00:30.990  INFO 1929740 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 13:00:31.755  INFO 1929740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 13:00:31.765  INFO 1929740 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 13:00:31.765  INFO 1929740 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 13:00:31.964  INFO 1929740 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 13:00:31.976  INFO 1929740 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 13:00:31.976  INFO 1929740 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 949 ms
+2021-12-27 13:00:32.206  INFO 1929740 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 13:00:32.291  INFO 1929740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 13:00:32.300  INFO 1929740 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.648 seconds (JVM running for 2.134)
+2021-12-27 13:00:34.852  INFO 1929740 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 13:00:34.853  INFO 1929740 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 13:00:34.854  INFO 1929740 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-12-27 13:01:37.469  INFO 1929740 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 13:01:38.878  INFO 1929862 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1929862 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 13:01:38.880  INFO 1929862 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 13:01:39.604  INFO 1929862 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 13:01:39.613  INFO 1929862 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 13:01:39.613  INFO 1929862 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 13:01:39.803  INFO 1929862 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 13:01:39.814  INFO 1929862 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 13:01:39.814  INFO 1929862 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 887 ms
+2021-12-27 13:01:39.998  INFO 1929862 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 13:01:40.089  INFO 1929862 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 13:01:40.097  INFO 1929862 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.574 seconds (JVM running for 2.059)
+2021-12-27 13:01:47.651  INFO 1929862 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 13:01:47.651  INFO 1929862 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 13:01:47.652  INFO 1929862 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 13:02:25.409  INFO 1929862 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 13:02:26.778  INFO 1929991 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1929991 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 13:02:26.782  INFO 1929991 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 13:02:27.541  INFO 1929991 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 13:02:27.549  INFO 1929991 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 13:02:27.549  INFO 1929991 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 13:02:27.754  INFO 1929991 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 13:02:27.763  INFO 1929991 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 13:02:27.763  INFO 1929991 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 941 ms
+2021-12-27 13:02:27.957  INFO 1929991 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 13:02:28.057  INFO 1929991 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 13:02:28.069  INFO 1929991 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.629 seconds (JVM running for 2.113)
+2021-12-27 13:02:32.951  INFO 1929991 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 13:02:32.953  INFO 1929991 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 13:02:32.955  INFO 1929991 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 13:05:54.815  INFO 1929991 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 13:05:56.300  INFO 1930246 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1930246 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 13:05:56.301  INFO 1930246 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 13:05:57.026  INFO 1930246 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 13:05:57.034  INFO 1930246 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 13:05:57.035  INFO 1930246 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 13:05:57.234  INFO 1930246 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 13:05:57.245  INFO 1930246 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 13:05:57.245  INFO 1930246 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 910 ms
+2021-12-27 13:05:57.445  INFO 1930246 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 13:05:57.553  INFO 1930246 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 13:05:57.564  INFO 1930246 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.645 seconds (JVM running for 2.14)
+2021-12-27 13:06:04.042  INFO 1930246 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 13:06:04.043  INFO 1930246 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 13:06:04.044  INFO 1930246 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 13:07:22.765  INFO 1930246 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 13:07:24.251  INFO 1930368 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1930368 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 13:07:24.254  INFO 1930368 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 13:07:24.937  INFO 1930368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 13:07:24.947  INFO 1930368 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 13:07:24.947  INFO 1930368 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 13:07:25.136  INFO 1930368 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 13:07:25.145  INFO 1930368 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 13:07:25.146  INFO 1930368 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 858 ms
+2021-12-27 13:07:25.346  INFO 1930368 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 13:07:25.441  INFO 1930368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 13:07:25.450  INFO 1930368 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.545 seconds (JVM running for 2.04)
+2021-12-27 13:07:40.396  INFO 1930368 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 13:07:41.823  INFO 1930447 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1930447 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 13:07:41.825  INFO 1930447 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 13:07:42.552  INFO 1930447 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 13:07:42.563  INFO 1930447 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 13:07:42.564  INFO 1930447 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 13:07:42.762  INFO 1930447 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 13:07:42.777  INFO 1930447 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 13:07:42.777  INFO 1930447 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 911 ms
+2021-12-27 13:07:43.002  INFO 1930447 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 13:07:43.106  INFO 1930447 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 13:07:43.117  INFO 1930447 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.641 seconds (JVM running for 2.149)
+2021-12-27 13:07:47.279  INFO 1930447 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 13:07:47.280  INFO 1930447 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 13:07:47.281  INFO 1930447 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 13:08:44.034  INFO 1930447 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 13:08:45.428  INFO 1930567 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1930567 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 13:08:45.430  INFO 1930567 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 13:08:46.143  INFO 1930567 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 13:08:46.154  INFO 1930567 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 13:08:46.155  INFO 1930567 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 13:08:46.332  INFO 1930567 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 13:08:46.342  INFO 1930567 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 13:08:46.342  INFO 1930567 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 874 ms
+2021-12-27 13:08:46.561  INFO 1930567 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 13:08:46.645  INFO 1930567 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 13:08:46.654  INFO 1930567 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.601 seconds (JVM running for 2.086)
+2021-12-27 13:08:55.881  INFO 1930567 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 13:08:55.882  INFO 1930567 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 13:08:55.883  INFO 1930567 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 13:10:28.533  INFO 1930567 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 13:10:29.964  INFO 1930771 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1930771 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 13:10:29.966  INFO 1930771 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 13:10:30.681  INFO 1930771 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 13:10:30.695  INFO 1930771 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 13:10:30.696  INFO 1930771 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 13:10:30.902  INFO 1930771 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 13:10:30.911  INFO 1930771 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 13:10:30.911  INFO 1930771 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 908 ms
+2021-12-27 13:10:31.114  INFO 1930771 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 13:10:31.200  INFO 1930771 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 13:10:31.209  INFO 1930771 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.607 seconds (JVM running for 2.094)
+2021-12-27 13:10:35.262  INFO 1930771 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 13:10:35.263  INFO 1930771 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 13:10:35.265  INFO 1930771 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-12-27 13:11:45.019  INFO 1930771 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 13:11:46.421  INFO 1930972 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1930972 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 13:11:46.422  INFO 1930972 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 13:11:47.121  INFO 1930972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 13:11:47.128  INFO 1930972 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 13:11:47.128  INFO 1930972 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 13:11:47.316  INFO 1930972 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 13:11:47.325  INFO 1930972 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 13:11:47.326  INFO 1930972 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 866 ms
+2021-12-27 13:11:47.518  INFO 1930972 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 13:11:47.606  INFO 1930972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 13:11:47.617  INFO 1930972 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.557 seconds (JVM running for 2.038)
+2021-12-27 13:12:00.808  INFO 1930972 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 13:12:00.809  INFO 1930972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 13:12:00.810  INFO 1930972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 13:13:09.133  INFO 1930972 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 13:13:10.572  INFO 1931111 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1931111 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 13:13:10.574  INFO 1931111 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 13:13:11.328  INFO 1931111 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 13:13:11.336  INFO 1931111 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 13:13:11.337  INFO 1931111 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 13:13:11.530  INFO 1931111 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 13:13:11.541  INFO 1931111 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 13:13:11.542  INFO 1931111 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 929 ms
+2021-12-27 13:13:11.739  INFO 1931111 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 13:13:11.833  INFO 1931111 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 13:13:11.843  INFO 1931111 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.61 seconds (JVM running for 2.124)
+2021-12-27 13:13:33.408  INFO 1931111 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 13:13:33.409  INFO 1931111 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 13:13:33.413  INFO 1931111 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-12-27 13:15:58.416  INFO 1931111 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 13:15:59.939  INFO 1931294 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1931294 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 13:15:59.941  INFO 1931294 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 13:16:00.714  INFO 1931294 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 13:16:00.724  INFO 1931294 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 13:16:00.724  INFO 1931294 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 13:16:00.918  INFO 1931294 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 13:16:00.928  INFO 1931294 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 13:16:00.928  INFO 1931294 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 946 ms
+2021-12-27 13:16:01.140  INFO 1931294 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 13:16:01.239  INFO 1931294 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 13:16:01.248  INFO 1931294 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.695 seconds (JVM running for 2.23)
+2021-12-27 13:16:04.736  INFO 1931294 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 13:16:04.737  INFO 1931294 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 13:16:04.738  INFO 1931294 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 13:20:23.569  INFO 1931294 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 13:20:25.077  INFO 1931578 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1931578 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 13:20:25.080  INFO 1931578 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 13:20:25.781  INFO 1931578 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 13:20:25.791  INFO 1931578 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 13:20:25.791  INFO 1931578 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 13:20:25.975  INFO 1931578 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 13:20:25.985  INFO 1931578 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 13:20:25.985  INFO 1931578 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 859 ms
+2021-12-27 13:20:26.178  INFO 1931578 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 13:20:26.261  INFO 1931578 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 13:20:26.280  INFO 1931578 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.571 seconds (JVM running for 2.04)
+2021-12-27 13:20:31.605  INFO 1931578 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 13:20:31.606  INFO 1931578 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 13:20:31.607  INFO 1931578 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 13:21:54.372  INFO 1931578 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 13:21:55.723  INFO 1931723 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1931723 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 13:21:55.724  INFO 1931723 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 13:21:56.440  INFO 1931723 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 13:21:56.450  INFO 1931723 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 13:21:56.451  INFO 1931723 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 13:21:56.652  INFO 1931723 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 13:21:56.667  INFO 1931723 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 13:21:56.667  INFO 1931723 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 904 ms
+2021-12-27 13:21:56.896  INFO 1931723 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 13:21:56.989  INFO 1931723 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 13:21:56.999  INFO 1931723 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.603 seconds (JVM running for 2.097)
+2021-12-27 13:22:04.311  INFO 1931723 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 13:22:04.312  INFO 1931723 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 13:22:04.313  INFO 1931723 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 13:22:46.520  INFO 1931723 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 13:22:48.107  INFO 1931844 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1931844 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 13:22:48.108  INFO 1931844 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 13:22:48.804  INFO 1931844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 13:22:48.812  INFO 1931844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 13:22:48.813  INFO 1931844 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 13:22:48.993  INFO 1931844 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 13:22:49.005  INFO 1931844 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 13:22:49.005  INFO 1931844 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 858 ms
+2021-12-27 13:22:49.200  INFO 1931844 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 13:22:49.297  INFO 1931844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 13:22:49.306  INFO 1931844 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.548 seconds (JVM running for 2.011)
+2021-12-27 13:22:55.168  INFO 1931844 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 13:22:55.169  INFO 1931844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 13:22:55.170  INFO 1931844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 13:22:55.209  WARN 1931844 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'nombre' for method parameter type String is not present]
+2021-12-27 13:23:37.391  INFO 1931844 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-27 13:23:38.855  INFO 1931956 --- [main] c.c.asce.PrimerSpringBootApplication     : Starting PrimerSpringBootApplication using Java 11.0.13 on kaliC with PID 1931956 (/mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot/target/classes started by asce in /mnt/HDD/Personal/Servicios/Coding Dojo/202112_JAVA/clases/java/primerSpringBoot)
+2021-12-27 13:23:38.858  INFO 1931956 --- [main] c.c.asce.PrimerSpringBootApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 13:23:39.569  INFO 1931956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 13:23:39.580  INFO 1931956 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 13:23:39.581  INFO 1931956 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 13:23:39.777  INFO 1931956 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-27 13:23:39.788  INFO 1931956 --- [main] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring embedded WebApplicationContext
+2021-12-27 13:23:39.788  INFO 1931956 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 895 ms
+2021-12-27 13:23:39.982  INFO 1931956 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-27 13:23:40.074  INFO 1931956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/primer-spring'
+2021-12-27 13:23:40.084  INFO 1931956 --- [main] c.c.asce.PrimerSpringBootApplication     : Started PrimerSpringBootApplication in 1.6 seconds (JVM running for 2.041)
+2021-12-27 13:23:45.986  INFO 1931956 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/primer-spring]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 13:23:45.987  INFO 1931956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 13:23:45.988  INFO 1931956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-27 13:35:59.969  INFO 1931956 --- [RMI TCP Connection(23)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
