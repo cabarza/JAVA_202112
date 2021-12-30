@@ -18,7 +18,7 @@ import javax.validation.constraints.Size;
 
 @Entity
 @Table(name="personas")
-public class Persona {
+public class Persona extends Auditoria {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -62,7 +62,6 @@ public class Persona {
 		this.fechaActualizacion = new Date();
 	}
 	
-	
 	public Persona() {
 		
 	}
@@ -70,7 +69,7 @@ public class Persona {
 	public Persona(long id, @Size(min = 3, max = 200) String nombre, @Size(min = 3, max = 200) String primerApellido,
 			@Size(min = 0, max = 200) String segundoApellido, @Min(0) @Max(115) int edad, Date fechaNacimiento,
 			Date fechaCreacion, Date fechaActualizacion) {
-		super();
+		super(fechaCreacion, fechaActualizacion);
 		this.id = id;
 		this.nombre = nombre;
 		this.primerApellido = primerApellido;
