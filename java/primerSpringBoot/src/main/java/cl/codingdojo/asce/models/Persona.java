@@ -27,21 +27,27 @@ public class Persona {
 	@Size(min = 3, max = 200)
 	@Column(name = "nombre", length = 200, nullable = false)
 	private String nombre;
+	
 	@Size(min = 3, max = 200)
 	@Column(name = "apellido_paterno", length = 200, nullable = false)
 	private String primerApellido;
+	
 	@Size(min = 0, max = 200)
 	@Column(name = "apellido_materno", length = 200)
 	private String segundoApellido;
+	
 	@Min(0)
 	@Max(115)
 	private int edad;
+	
 	@Temporal(TemporalType.DATE)
 	@Column(name="fecha_nacimiento")
 	private Date fechaNacimiento;
+	
 	@Temporal(TemporalType.TIMESTAMP)
-	@Column(name="fecha_creacion", nullable = false)
+	@Column(name="fecha_creacion", nullable = false, updatable = false)
 	private Date fechaCreacion;
+	
 	@Temporal(TemporalType.TIMESTAMP)
 	@Column(name="fecha_actualizacion")
 	private Date fechaActualizacion;

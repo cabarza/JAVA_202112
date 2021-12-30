@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import cl.codingdojo.asce.models.Persona;
-import cl.codingdojo.asce.repository.PersonaRepository;
+import cl.codingdojo.asce.repositories.PersonaRepository;
 import cl.codingdojo.asce.services.PersonaService;
 
 @Service

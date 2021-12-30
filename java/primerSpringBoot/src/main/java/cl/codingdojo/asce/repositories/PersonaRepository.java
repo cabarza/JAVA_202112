@@ -1,4 +1,4 @@
-package cl.codingdojo.asce.repository;
+package cl.codingdojo.asce.repositories;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
