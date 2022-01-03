@@ -71,4 +71,10 @@ public class PersonaController {
 		}
 		return "redirect:/personas";
 	}
+	
+	@RequestMapping(path = "{id}", method = {RequestMethod.DELETE})
+	public String eliminar(@PathVariable Long id) throws Exception {
+		this.personaService.eliminar(id);
+		return "redirect:/personas";
+	}
 }

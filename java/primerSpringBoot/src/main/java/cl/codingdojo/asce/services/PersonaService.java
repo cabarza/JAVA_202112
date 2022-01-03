@@ -13,5 +13,7 @@ public interface PersonaService {
 	Persona crear(Persona persona) throws Exception;
 
 	Persona actualizar(long id, Persona persona) throws Exception;
+	
+	void eliminar(long id) throws Exception;
 
 }

@@ -64,6 +64,11 @@ public class PersonaServiceImpl implements PersonaService {
 			throw e;
 		}
 	}
+
+	@Override
+	public void eliminar(long id) throws Exception {
+		this.personaRepo.deleteById(id);
+	}
 	
 	
 	
