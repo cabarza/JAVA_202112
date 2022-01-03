@@ -16,6 +16,8 @@ import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
 
+import org.hibernate.validator.constraints.Range;
+
 @Entity
 @Table(name="personas")
 public class Persona extends Auditoria {
@@ -24,20 +26,19 @@ public class Persona extends Auditoria {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	
-	@Size(min = 3, max = 200)
+	@Size(min = 3, max = 200, message = "El largo debe estar entre {min} y {max}")
 	@Column(name = "nombre", length = 200, nullable = false)
 	private String nombre;
 	
-	@Size(min = 3, max = 200)
+	@Size(min = 3, max = 200, message = "El largo debe estar entre {min} y {max}")
 	@Column(name = "apellido_paterno", length = 200, nullable = false)
 	private String primerApellido;
 	
-	@Size(min = 0, max = 200)
+	@Size(min = 0, max = 200, message = "El largo debe estar entre {min} y {max}")
 	@Column(name = "apellido_materno", length = 200)
 	private String segundoApellido;
 	
-	@Min(0)
-	@Max(115)
+	@Range(min=0, max=115, message = "No puede ser menor a {min} ni mayor a {max}")
 	private int edad;
 	
 	@Temporal(TemporalType.DATE)
@@ -127,6 +128,13 @@ public class Persona extends Auditoria {
 	}
 	public void setFechaActualizacion(Date fechaActualizacion) {
 		this.fechaActualizacion = fechaActualizacion;
+	}
+
+	@Override
+	public String toString() {
+		return "{id:" + id + ", nombre:" + nombre + ", primerApellido:" + primerApellido + ", segundoApellido:"
+				+ segundoApellido + ", edad:" + edad + ", fechaNacimiento:" + fechaNacimiento + ", fechaCreacion:"
+				+ fechaCreacion + ", fechaActualizacion:" + fechaActualizacion + "}";
 	}
 	
 	
