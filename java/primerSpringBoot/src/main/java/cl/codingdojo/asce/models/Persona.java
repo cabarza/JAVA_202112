@@ -7,8 +7,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.PrePersist;
-import javax.persistence.PreUpdate;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
@@ -45,24 +43,7 @@ public class Persona extends Auditoria {
 	@Column(name="fecha_nacimiento")
 	private Date fechaNacimiento;
 	
-	@Temporal(TemporalType.TIMESTAMP)
-	@Column(name="fecha_creacion", nullable = false, updatable = false)
-	private Date fechaCreacion;
-	
-	@Temporal(TemporalType.TIMESTAMP)
-	@Column(name="fecha_actualizacion")
-	private Date fechaActualizacion;
-	
-	@PrePersist
-	public void preCrear() {
-		this.fechaCreacion = new Date();
-	}
-	
-	@PreUpdate
-	public void preActualizar() {
-		this.fechaActualizacion = new Date();
-	}
-	
+
 	public Persona() {
 		
 	}
@@ -77,8 +58,8 @@ public class Persona extends Auditoria {
 		this.segundoApellido = segundoApellido;
 		this.edad = edad;
 		this.fechaNacimiento = fechaNacimiento;
-		this.fechaCreacion = fechaCreacion;
-		this.fechaActualizacion = fechaActualizacion;
+		super.setFechaCreacion(fechaCreacion);
+		super.setFechaActualizacion(fechaActualizacion);
 	}
 
 	public long getId() {
@@ -114,27 +95,13 @@ public class Persona extends Auditoria {
 	public Date getFechaNacimiento() {
 		return fechaNacimiento;
 	}
-	public void setFechaNacimiento(Date fechaNacimiento) {
-		this.fechaNacimiento = fechaNacimiento;
-	}
-	public Date getFechaCreacion() {
-		return fechaCreacion;
-	}
-	public void setFechaCreacion(Date fechaCreacion) {
-		this.fechaCreacion = fechaCreacion;
-	}
-	public Date getFechaActualizacion() {
-		return fechaActualizacion;
-	}
-	public void setFechaActualizacion(Date fechaActualizacion) {
-		this.fechaActualizacion = fechaActualizacion;
-	}
+	
 
 	@Override
 	public String toString() {
 		return "{id:" + id + ", nombre:" + nombre + ", primerApellido:" + primerApellido + ", segundoApellido:"
 				+ segundoApellido + ", edad:" + edad + ", fechaNacimiento:" + fechaNacimiento + ", fechaCreacion:"
-				+ fechaCreacion + ", fechaActualizacion:" + fechaActualizacion + "}";
+				+ getFechaCreacion() + ", fechaActualizacion:" + getFechaActualizacion() + "}";
 	}
 	
 	

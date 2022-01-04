@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import cl.codingdojo.asce.models.Persona;
 import cl.codingdojo.asce.services.PersonaService;
@@ -73,8 +74,10 @@ public class PersonaController {
 	}
 	
 	@RequestMapping(path = "{id}", method = {RequestMethod.DELETE})
+	@ResponseBody
 	public String eliminar(@PathVariable Long id) throws Exception {
 		this.personaService.eliminar(id);
 		return "redirect:/personas";
 	}
+	
 }
