@@ -11,6 +11,7 @@
 	<groupId>cl.codingdojo.asce</groupId>
 	<artifactId>primerSpringBoot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>primerSpringBoot</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -36,6 +37,7 @@
                 <groupId>javax.servlet</groupId>
                 <artifactId>jstl</artifactId>
         </dependency>
+        <!-- Esto es un comentario -->
         <dependency>
 		    <groupId>mysql</groupId>
 		    <artifactId>mysql-connector-java</artifactId>
