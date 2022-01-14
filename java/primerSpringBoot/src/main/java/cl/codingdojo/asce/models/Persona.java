@@ -4,6 +4,8 @@ import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -15,6 +17,8 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.Range;
+
+import cl.codingdojo.asce.models.enums.TipoPersonaEnum;
 
 @Entity
 @Table(name="personas")
@@ -42,6 +46,9 @@ public class Persona extends Auditoria {
 	@Temporal(TemporalType.DATE)
 	@Column(name="fecha_nacimiento")
 	private Date fechaNacimiento;
+	
+	@Enumerated(EnumType.STRING)
+	private TipoPersonaEnum tipoPersona;
 	
 
 	public Persona() {
