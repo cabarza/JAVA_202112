@@ -10,9 +10,13 @@ import javax.persistence.Id;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import javax.persistence.Transient;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.Size;
+
+import org.springframework.format.annotation.DateTimeFormat;
 
 @Entity
 @Table(name="users")
@@ -25,12 +29,17 @@ public class User {
     @Size(min = 5, message = "La password debe tener 5 caracteres como mínimo")
     private String password;
     @Transient
+    @Size(min = 5, message = "La confirmación de la password debe tener 5 caracteres como mínimo")
     private String passwordConfirmation;
     @Column(updatable=false)
     private Date createdAt;
     private Date updatedAt;
     
-    public User() {
+    @Temporal(TemporalType.DATE)
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    private Date birthDay;
+
+	public User() {
     }
     
     @PrePersist
@@ -102,5 +111,12 @@ public class User {
 		this.updatedAt = updatedAt;
 	}
     
+	public Date getBirthDay() {
+		return birthDay;
+	}
+
+	public void setBirthDay(Date birthDay) {
+		this.birthDay = birthDay;
+	}
     
 }

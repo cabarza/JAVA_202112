@@ -1,10 +1,11 @@
-package cl.codingdojo.asce.validators;
+package cl.codingdojo.asce.models.validators;
 
+import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
 import cl.codingdojo.asce.models.User;
-
+@Component
 public class UserValidator implements Validator {
 
 	@Override
