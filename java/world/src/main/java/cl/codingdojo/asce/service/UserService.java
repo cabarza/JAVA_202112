@@ -12,4 +12,11 @@ public interface UserService {
 
 	boolean authenticateUser(String email, String password);
 
+	User findByUsername(String username);
+
+	void saveUserWithAdminRole(User user);
+
+	/*** Uso de registro y login con Spring Security ***/
+	void saveWithUserRole(User user);
+
 }

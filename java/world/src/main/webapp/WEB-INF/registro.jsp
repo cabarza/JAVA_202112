@@ -33,6 +33,6 @@
 		<p>
 		<form:button type="submit">Registrar</form:button>
 	</form:form>
-
+	<a href="/login">Ya tengo mi cuenta</a>
 </body>
 </html>
