@@ -9,6 +9,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import cl.codingdojo.asce.models.City;
 import cl.codingdojo.asce.models.Role;
 import cl.codingdojo.asce.models.User;
 import cl.codingdojo.asce.repositories.RoleRepository;
@@ -37,7 +38,7 @@ public class UserServiceImpl implements UserService {
     	Optional<User> u = userRepository.findById(id);
     	if(u.isPresent()) {
             return u.get();
-    	}
+    	}    	
     	return null;
     }
     
